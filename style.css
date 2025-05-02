@@ -133,30 +133,36 @@ header {
 }
 
 /* For smaller screens (like mobile phones) */
-@media screen and (max-width: 600px) {
-  header {
-    padding: 10px;  /* Reduce padding on small screens */
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
   }
 
-  header h1 {
-    font-size: 24px;  /* Adjust font size */
+  nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
   }
 
-  header nav {
-    font-size: 14px;  /* Adjust font size for links */
+  nav a {
+    margin: 0.5rem 1rem;
   }
 
-  header nav a {
-    display: block;  /* Stack links vertically */
-    margin-top: 10px; /* Add spacing between links */
+  main {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  header h2 {
+    font-size: 1.5rem;
   }
 }
 
-footer a {
-  color: white;
-  text-decoration: none;
-}
 
-footer a:hover {
-  color: #ddd; /* Slightly lighter on hover */
-}
+
+

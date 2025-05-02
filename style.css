@@ -276,3 +276,18 @@ form button:hover {
   color: #F28C8C;
   border: none;
 }
+.about {
+  background-color:
+  color: #002b45; 
+  padding: 20px;
+}
+
+.about h2 {
+  font-size: 1.8rem;
+  color: #F28C8C; 
+  text-align: left;
+}
+
+.about p {
+  font-size: 1.1rem;
+}

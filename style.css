@@ -1,8 +1,8 @@
 
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: #FFF5F0;
-  color: #333;
+  background-color: #f0f8ff;
+  color: #002b45;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background-color: #F28C8C;
+  background-color: #0077cc;
   color: white;
   text-align: center;
   padding: 60px 20px;

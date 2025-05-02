@@ -119,3 +119,31 @@ footer a:hover i {
 .register-button:hover {
   background-color: #00796b;
 }
+
+/* General Header Styles */
+header {
+  background-color: #0077cc; /* primary blue */
+  color: white;
+  padding: 20px;
+  text-align: center; /* Center the text */
+}
+
+/* For smaller screens (like mobile phones) */
+@media screen and (max-width: 600px) {
+  header {
+    padding: 10px;  /* Reduce padding on small screens */
+  }
+
+  header h1 {
+    font-size: 24px;  /* Adjust font size */
+  }
+
+  header nav {
+    font-size: 14px;  /* Adjust font size for links */
+  }
+
+  header nav a {
+    display: block;  /* Stack links vertically */
+    margin-top: 10px; /* Add spacing between links */
+  }
+}

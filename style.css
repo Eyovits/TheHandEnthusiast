@@ -255,7 +255,6 @@ form button:hover {
   }
 }
 .hero {
-  background-color: #F28C8C; /* Or use an image with background-image */
   color: white;
   text-align: center;
   padding: 60px 20px;

@@ -197,7 +197,7 @@ form button:hover {
 #contact form {
   display: flex;
   flex-direction: column;
-  gap: 8px; 
+  gap: 3px; 
   align-items: flex-start;
   max-width: 600px;
   margin: 0 auto;

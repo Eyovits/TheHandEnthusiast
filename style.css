@@ -254,9 +254,9 @@ form button:hover {
      width: 100%;
   }
 }
-hero {
-  background-color: #F20f8ff
-  color: white;
+.hero {
+  background-color: #F0f8ff;
+  color: #0077cc;
   text-align: center;
   padding: 60px 20px;
 }
@@ -269,6 +269,7 @@ hero {
 .hero h2 {
   font-size: 2rem;
   margin-bottom: 20px;
+  color: white;
 }
 
 .hero .btn {

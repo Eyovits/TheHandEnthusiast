@@ -1,67 +1,173 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TheHandEnthusiast</title>
-  <link rel="stylesheet" href="style.css" />
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Hand Enthusiast</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      background: #f0f4fa;
+      color: #2c3e50;
+    }
+
+    nav {
+      width: 250px;
+      background-color: #1e3a8a;
+      color: white;
+      padding: 2rem 1rem;
+      position: fixed;
+      height: 100%;
+    }
+
+    nav h1 {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    nav a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 1rem 0;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      margin-left: 250px;
+      padding: 2rem;
+      flex: 1;
+    }
+
+    header {
+      background: linear-gradient(to right, #3b82f6, #60a5fa);
+      color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    header h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      background: white;
+      color: #1e3a8a;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    footer {
+      background: #1e3a8a;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      margin-top: 3rem;
+      border-radius: 8px;
+    }
+
+    footer a {
+      color: #93c5fd;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Welcome to TheHandEnthusiast</h1>
-      <p>Hands-on classes. Supportive teaching. Designed for therapists like you.</p>
-      <a href="#courses" class="btn">View Upcoming Classes</a>
-    </div>
-  </header>
+  <nav>
+    <h1>The Hand Enthusiast</h1>
+    <a href="#about">About</a>
+    <a href="#classes">Upcoming Classes</a>
+    <a href="#register">Register</a>
+    <a href="#host">Host a Class</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <section id="about" class="container">
-    <h2>About</h2>
-    <p>At TheHandEnthusiast, we offer practical, supportive hand therapy education with a focus on in-person splinting classes. Whether you're new or experienced, our welcoming environment will help you grow your confidence and skills.</p>
-  </section>
+  <main>
+    <header>
+      <h2>Helping Hands, Guided with Care</h2>
+      <a href="#register" class="btn">Register for a Class</a>
+    </header>
 
-  <section id="courses" class="container">
-    <h2>Upcoming Classes</h2>
-    <ul>
-      <li>📅 June 8, 2025 – Intermediate Orthotic Fabrication - NYC </li>
-       <a href="https://forms.gle/6KWYnoe4kaGdbQXb8" class="register-button" target="_blank">Click to Register</a>
+    <section id="about">
+      <h3>About</h3>
+      <p>Welcome to The Hand Enthusiast — a place to learn, create, and connect through the art of splinting and hand therapy.</p>
+    </section>
 
-    </ul>
-  </section>
+    <section id="classes">
+      <h3>Upcoming Classes</h3>
+      <p>See our latest offerings for hands-on in-person education. Join a session near you!</p>
+    </section>
 
-  <section id="gallery">
-  <h2>Photo Gallery</h2>
-  <div class="gallery">
-    
-    <img src="images/23.jpeg" alt="Classroom setting" />
-    <img src="images/24.jpeg" alt="Classroom setting" />
-    <img src="images/25.jpeg" alt="Classroom setting" />
-    <img src="images/26.jpeg" alt="Classroom setting" />
-    <img src="images/27.jpeg" alt="Classroom setting" />
-    
-  </div>
-     <p><a href="gallery.html" class="register-button">View Full Gallery</a></p>
-</section>
+    <section id="register">
+      <h3>Register</h3>
+      <p>Use our <a href="https://forms.gle/your-registration-link" target="_blank">registration form</a> to sign up.</p>
+    </section>
 
+    <section id="host">
+      <h3>Host a Class</h3>
+      <p>Interested in bringing The Hand Enthusiast to your clinic or school? Let’s connect!</p>
+    </section>
 
-  <section id="contact" class="container">
-    <h2>Contact</h2>
-    <p>Have questions or want to reserve your spot? Email us at <a href="mailto:info@thehandenthusiast.com">info@thehandenthusiast.com</a></p>
-  </section>
+    <section id="gallery">
+      <h3>Gallery</h3>
+      <div class="gallery">
+        <img src="images/10.jpeg" alt="splinting class" />
+        <img src="images/11.jpeg" alt="demo" />
+        <img src="images/12.jpeg" alt="hand therapy" />
+        <!-- Add more images here -->
+      </div>
+    </section>
 
-  <footer>
-  <p>© 2025 The Hand Enthusiast — created by Eli Yovits</p>
-  <p>
-    <a href="mailto:info@thehandenthusiast.com">📧 info@thehandenthusiast.com</a> 
-     </p>
-    <p>
-    <a href="https://instagram.com/thehandenthusiast" target="_blank">
-      <i class="fab fa-instagram"></i> @thehandenthusiast
-    </a>
-  </p>
-    <img src="AOTA-Approved_Provider_Program (2).jpg" alt="The Hand Enthusiast logo" style="height: 50px; margin-bottom: 10px;" />  
-</footer>
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 The Hand Enthusiast</p>
+      <a href="mailto:you@example.com">Email</a>
+      <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a>
+    </footer>
+  </main>
+</body>
+</html>

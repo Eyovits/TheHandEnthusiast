@@ -92,7 +92,7 @@ ul li {
   justify-content: flex-start; 
   flex-wrap: wrap;
   gap: 2px; 
-  padding: 5;
+  padding: 5px;
   margin-top: 20px;
 }
 
@@ -102,7 +102,7 @@ ul li {
   border-radius: 2px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   transition: transform 0.2s;
-  margin: 20;
+  margin: 20px;
 }
 
 .gallery img:hover {
@@ -208,7 +208,7 @@ form button:hover {
 #contact input, #contact textarea {
   padding: 8px;
   font-size: 1rem;
-  width: 70%; 
+  width: 100%; 
   max-width: 100px; 
   border-radius: 8px;
   border: 1px solid #ccc;
@@ -269,7 +269,6 @@ form button:hover {
 .hero h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: white;
 }
 
 .hero .btn {

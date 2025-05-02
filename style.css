@@ -18,6 +18,8 @@ body {
 header-bar {
   text-align: center;
   padding: 40px 20px;
+  background-color: #0077cc; /* BLUE HEADER BAR */
+  color: white;
 }
 
 .header-bar h1 {

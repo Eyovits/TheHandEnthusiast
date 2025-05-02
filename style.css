@@ -190,16 +190,18 @@ form button:hover {
   }
 }
 #contact {
-  padding: 10px 0; 
-  font-size: 0.6rem; 
+  padding: 20px 0; 
+  font-size: 0.8rem; 
   background-color: #f0f8ff
 }
 
 #contact form {
   display: flex;
   flex-direction: column;
-  gap: 2px; 
-  align-items: left;
+  gap: 8px; 
+  align-items: flex-start;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 #contact input, #contact textarea {
@@ -209,6 +211,7 @@ form button:hover {
   max-width: 400px; 
   border-radius: 8px;
   border: 1px solid #ccc;
+  margin-bottom: 10px;
 }
 
 #contact button {

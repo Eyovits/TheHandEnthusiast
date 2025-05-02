@@ -254,25 +254,3 @@ form button:hover {
      width: 100%;
   }
 }
-.hero {
-  color: white;
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.hero-text {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.hero h2 {
-  font-size: 1rem;
-  color: #0077c;
-  margin-bottom: 20px;
-}
-
-.hero .btn {
-  background-color: white;
-  color: #F28C8C;
-  border: none;
-}

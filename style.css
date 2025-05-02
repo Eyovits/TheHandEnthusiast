@@ -228,3 +228,23 @@ form button:hover {
 #contact button:hover {
   background-color: #005f8e;
 }
+@media (max-width: 768px) {
+  #contact {
+    padding: 15px; 
+  }
+
+  #contact form {
+    padding: 0 15px; 
+    gap: 6px; 
+  }
+
+  #contact input, #contact textarea {
+    font-size: 0.9rem; 
+    padding: 6px;
+  }
+
+  #contact button {
+    font-size: 0.9rem; 
+    padding: 8px 15px; 
+  }
+}

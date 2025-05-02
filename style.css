@@ -166,7 +166,6 @@ form button:hover {
   background-color: #005fa3;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -236,15 +235,20 @@ form button:hover {
   #contact form {
     padding: 0 15px; 
     gap: 6px; 
+    width: 40%;
+    max-width: 100%;
   }
 
   #contact input, #contact textarea {
     font-size: 0.9rem; 
     padding: 6px;
+    width: 100%;
+    max-width: 100%;
   }
 
   #contact button {
     font-size: 0.9rem; 
-    padding: 8px 15px; 
+    padding: 8px 15px;
+     width: 100%;
   }
 }

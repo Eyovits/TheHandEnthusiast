@@ -25,6 +25,7 @@ body {
 .header-bar h1 {
   margin: 0;
   font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .header-bar nav ul {

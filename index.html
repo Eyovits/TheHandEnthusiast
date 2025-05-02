@@ -1,42 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TheHandEnthusiast</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #ffffff;
-      color: #000000;
+      font-family: sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
     }
-
-    header, section, footer {
-      max-width: 800px;
-      margin: auto;
-      padding: 1rem;
-    }
-
     header {
+      background-color: #5aa7e0;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    nav {
       background-color: #e0f0ff;
+      padding: 1rem;
       text-align: center;
     }
-
-    h1 {
-      margin-bottom: 0.5rem;
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #336699;
+      font-weight: bold;
     }
-
+    main {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
     .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
     }
-
     .gallery img {
-      width: 100px;
-      height: auto;
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #e0f0ff;
+      padding: 1rem;
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    .contact p {
+      margin: 0.5rem 0;
     }
   </style>
 </head>
@@ -46,32 +60,41 @@
     <p>Dedicated to excellence in hand therapy education.</p>
   </header>
 
-  <section>
-    <h2>Upcoming Classes</h2>
-    <ul>
-      <li><strong>June 8th, 2025:</strong> Intermediate Orthotic Fabrication – NYC</li>
-    </ul>
-  </section>
+  <nav>
+    <a href="#classes">Upcoming Classes</a>
+    <a href="#register">Register</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <section>
-    <h2>Register</h2>
-    <p>Sign up here: <a href="https://forms.gle/6KWYnoe4kaGdbQXb8" target="_blank">Registration Form</a></p>
-  </section>
+  <main>
+    <section id="classes">
+      <h2>Upcoming Classes</h2>
+      <ul>
+        <li><strong>June 8th, 2025:</strong> Intermediate Orthotic Fabrication – NYC</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Gallery</h2>
-    <div class="gallery">
-      <img src="images/1.jpeg" alt="Splinting class 1">
-      <img src="images/2.jpeg" alt="Splinting class 2">
-      <img src="images/3.jpeg" alt="Splinting class 3">
-    </div>
-  </section>
+    <section id="register">
+      <h2>Register</h2>
+      <p>Sign up here: <a href="https://forms.gle/6KWYnoe4kaGdbQXb8" target="_blank">Registration Form</a></p>
+    </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:EYOTCHT@gmail.com">EYOTCHT@gmail.com</a></p>
-    <p>Instagram: <a href="https://instagram.com/TheHandEnthusiast" target="_blank">@TheHandEnthusiast</a></p>
-  </section>
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="images/1.jpeg" alt="Splinting class 1">
+        <img src="images/2.jpeg" alt="Splinting class 2">
+        <img src="images/3.jpeg" alt="Splinting class 3">
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:EYOTCHT@gmail.com">EYOTCHT@gmail.com</a></p>
+      <p>Instagram: <a href="https://instagram.com/TheHandEnthusiast" target="_blank">@TheHandEnthusiast</a></p>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 TheHandEnthusiast. All rights reserved.</p>

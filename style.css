@@ -4,7 +4,8 @@ body {
   background-color: #f0f8ff;
   color: #002b45;
   margin: 0;
-  padding: 0;
+  padding: 40;
+  box-sizing: border-box;
   line-height: 1.6;
 }
 
@@ -12,7 +13,7 @@ body {
   width: 90%;
   max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px;
 }
 
 header {
@@ -56,7 +57,7 @@ section h2 {
 
 ul {
   list-style: none;
-  padding-left: 0;
+  padding-left: 40;
 }
 
 ul li {
@@ -68,7 +69,7 @@ ul li {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 10px;
-  padding: 0 20px;
+  padding: 0 40px;
   box-sizing: border-box;
   margin-left: 10px;
   margin-top: 20px;
@@ -94,7 +95,7 @@ footer {
   text-align: center;
   background: #0077cc;
   color: white;
-  padding: 20px 0;
+  padding: 40px 0;
   margin-top: 40px;
   footer a i {
   font-size: 20px;  /* Adjust icon size */

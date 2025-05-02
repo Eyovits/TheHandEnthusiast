@@ -16,13 +16,10 @@ body {
 }
 
 .header-bar {
-  background-color: blue;
+  background-color: #0077cc;
   color: white;
-  padding: 40px 0;
-}
-
-.header-bar .container {
   text-align: center;
+  padding: 40px 20px;
 }
 
 .header-bar h1 {
@@ -34,7 +31,7 @@ body {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 40px; /* Space between nav items */
+  gap: 80px; /* Space between nav items */
   padding: 20px 0 0;
   margin: 0;
   flex-wrap: wrap; /* Allows wrapping on small screens */

@@ -92,16 +92,17 @@ ul li {
   justify-content: flex-start; 
   flex-wrap: wrap;
   gap: 2px; 
-  padding: 0 10px;
+  padding: 0;
   margin-top: 20px;
 }
 
 .gallery img {
-  width: 30%;
+  width: 25%;
   height: auto;
   border-radius: 2px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   transition: transform 0.2s;
+  margin: 0;
 }
 
 .gallery img:hover {

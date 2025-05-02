@@ -92,6 +92,15 @@ footer {
   color: white;
   padding: 20px 0;
   margin-top: 40px;
+  footer a i {
+  font-size: 20px;  /* Adjust icon size */
+  color: #E1306C;   /* Instagram pinkish color */
+  margin-right: 5px; /* Space between icon and handle */
+}
+
+footer a:hover i {
+  color: #C13584;   /* Darker shade when hovered */
+}
 }
 
 .register-button {

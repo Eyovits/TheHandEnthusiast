@@ -16,8 +16,13 @@ body {
 }
 
 .header-bar {
+  background-color: #0077cc;
+  color: white;
+  padding: 40px 0;
+}
+
+.header-bar .container {
   text-align: center;
-  padding: 40px 20px;
 }
 
 .header-bar h1 {

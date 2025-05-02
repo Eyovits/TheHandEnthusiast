@@ -198,8 +198,8 @@ form button:hover {
 #contact form {
   display: flex;
   flex-direction: column;
-  gap: 10px; 
-  align-items: center;
+  gap: 2px; 
+  align-items: left;
 }
 
 #contact input, #contact textarea {

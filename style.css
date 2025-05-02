@@ -88,9 +88,11 @@ ul li {
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 5px;
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  gap: 5px; 
+  padding: 0 15px;
   margin-top: 20px;
 }
 

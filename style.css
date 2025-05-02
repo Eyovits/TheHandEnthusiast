@@ -234,7 +234,7 @@ form button:hover {
 
   #contact form {
     padding: 0 15px; 
-    gap: 6px; 
+    gap: 2px; 
     width: 40%;
     max-width: 100%;
   }

@@ -91,15 +91,15 @@ ul li {
   display: flex;
   justify-content: space-between; 
   flex-wrap: wrap;
-  gap: 5px; 
-  padding: 0 15px;
+  gap: 2px; 
+  padding: 0 10px;
   margin-top: 20px;
 }
 
 .gallery img {
   width: 30px;
   height: auto;
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   transition: transform 0.2s;
 }
